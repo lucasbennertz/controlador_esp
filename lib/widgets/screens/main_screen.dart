@@ -1,4 +1,5 @@
 import 'package:controle_esp/widgets/buttons/botao_led.dart';
+import 'package:controle_esp/widgets/screens/my_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatelessWidget {
@@ -8,6 +9,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: MyAppBar(),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
